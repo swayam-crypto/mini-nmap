@@ -5,6 +5,7 @@ The aim of this project is to build a simple Python-based tool that can scan a t
 Concurrent TCP port scanner. Usage (example):
 
 ```bash
+python src/scan.py [example ip addr] [open port] [close port]
 python src/scan.py 127.0.0.1 20 1024
 ```
 
